@@ -12,7 +12,7 @@ import Error from './ui/Error';
 
 const router = createBrowserRouter([
   {
-    path: '/fast-pizza',
+    path: '/',
     element: <AppLayout />,
     errorElement: <Error />,
     children: [
